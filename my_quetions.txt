@@ -1,0 +1,22 @@
+Q.What is namespace?
+A namespace is a collection of related names or identifiers (functions, class, variables) .
+The identifiers of the C++ standard library are defined in a namespace called std.
+We use the code std:: before cout. This tells the C++ compiler that the cout object we are using belongs to the std namespace.
+_____________________________________________________________
+
+Q.How to break out of a nested loop?
+Method 1: use 'goto'--> jumps to label
+    .
+    .
+    .
+    goto label;
+    .
+    .
+    label:
+        statement;
+    .
+    .
+    .
+Method 2: use 'flag'-->example is in "first_repeating_element.cpp"
+
+_____________________________________________________________
